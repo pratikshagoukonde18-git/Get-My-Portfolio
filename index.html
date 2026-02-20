@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <div id="header">
+        <nav>
+            <h3>Welcome to,My Portfolio!</h3>
+            <ul id="nav-menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <div class="header-text">
+    <!-- <p class="fade-in">Front-end Developer</p> -->
+    <h1>Hi, I'm <span class="typing-text">Pratiksha Goukonde</span><span class="cursor">|</span>
+    <h4>Front-End Web Devloper</h4></h1>
+</div>
+        
+        <!-- <div class="header-text">
+            <p>Front-end Developer</p>
+            <h1>Hi, I'm <span>Pratiksha Goukonde!</span></h1>
+        </div> -->
+        
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/pratiksha-goukonde-1b320121b/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/pratikshagoukonde18-git">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:pratikshagoukonde18@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="tel:+919307304890"> 
+                <i class="fas fa-phone"></i>
+            </a>
+        </div>
+        
+        <a href="My CV.pdf" download class="btn">Download CV</a>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="your-photo.jpg" alt="Pratiksha Goukonde">
+                </div>
+                <div class="about-text">
+                    <h3>I'm a Front-end Developer</h3>
+                    <p>I build beautiful, responsive websites with modern technologies. 
+                       I'm passionate about creating user-friendly experiences and clean code.
+                       With a strong foundation in HTML, CSS, and JavaScript, I continuously 
+                       learn new technologies to stay updated.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li>B.E. in E&Tc From Savitribai Phule Pune University<br><span>2025</span></li>
+                            <li> Diploma in Computer Engineering From MSBTE<br><span>2022</span></li>
+                           
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship</span><br>Web Development Intern at Company Name</li>
+                            <li><span>Projects</span><br>Built multiple web projects</li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SKILLS SECTION -->
+    <div id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-list">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%">95%</div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%">90%</div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%">80%</div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 50%">50%</div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-bootstrap"></i>
+                    <h3>Bootstrap</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 50%">50%</div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-github"></i>
+                    <h3>Git/GitHub</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECTS SECTION -->
+    <div id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-list">
+                <div class="project-card">
+                    <img src="project1.png" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Amazon Clone</h3>
+                        <p>Amazon Clone – Front-End Web Project
+Developed a responsive Amazon homepage clone using HTML5 and CSS3.<br>
+ The project demonstrates strong understanding of layout structuring, navigation design, and UI styling using Flexbox and modern CSS techniques.<br>
+
+Technologies: HTML5, CSS3</p>
+                        <a href="https://github.com/pratikshagoukonde18-git/Amazon-Clone" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="Project2.png" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Rock, Paper, Scissor Play Game</h3>
+                        <p>Designed and developed a fully functional Rock Paper Scissors web game using JavaScript, <br> implementing game logic, event handling, DOM manipulation, and real-time score updates to enhance interactivity.
+                         <br> Technologies: HTML5, CSS3 , JavaScript  
+                        </p>
+                        <a href="https://github.com/pratikshagoukonde18-git/Rock_Paper_Scissor_Playgame" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+                <!-- <div class="project-card">
+                    <img src="project3.jpg" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Project Title 3</h3>
+                        <p>Description of your project. What technologies you used and what it does.</p>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <div id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-left">
+                    <h3>Get In Touch</h3>
+                    <p><i class="fas fa-envelope"></i> pratikshagoukonde18@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 9307304890</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/pratiksha-goukonde-1b320121b/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/pratikshagoukonde18-git">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <!-- <a href="resume.pdf" download class="btn">Download CV</a> -->
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2026 Pratiksha Goukonde. All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
